@@ -1,0 +1,1 @@
+<view class="index_cate data-v-1be302f1"><block wx:for="{{cateList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><navigator class="data-v-1be302f1"><image src="{{item.image_src}}" mode="widthFix" class="data-v-1be302f1"></image></navigator></block></view>

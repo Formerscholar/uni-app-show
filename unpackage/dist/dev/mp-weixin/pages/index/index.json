@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "优购首页",
+  "usingComponents": {
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar",
+    "cate": "/pages/index/children/cate/cate",
+    "floor": "/pages/index/children/floor/floor"
+  }
+}
