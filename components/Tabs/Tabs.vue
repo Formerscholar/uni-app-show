@@ -5,11 +5,14 @@
 			v-for="(item, index) in tabs" 
 			:key="index" 
 			:class="item.isActive ? 'title_item active' : 'title_item'"
-			>
+			@click="handleItemTap"
+			:data-index="index">
 			{{ item.value }}
 			</view>
 		</view>
-		<view class="tabs_content"></view>
+		<view class="tabs_content">
+			<slot></slot>
+		</view>
 	</view>
 </template>
 
@@ -26,7 +29,10 @@ export default {
 		}
 	},
 	methods:{
-	
+	handleItemTap(e){
+		const{index} =e.currentTarget.dataset
+		this.$emit('tabsItemChange',index ,e )
+	}
 	}
 };
 </script>
