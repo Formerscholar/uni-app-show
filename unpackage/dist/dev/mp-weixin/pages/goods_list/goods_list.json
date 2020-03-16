@@ -1,6 +1,8 @@
 {
   "navigationBarTitleText": "商品列表",
+  "enablePullDownRefresh": true,
   "usingComponents": {
-    "uni-search-bar": "/components/uni-search-bar/uni-search-bar"
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar",
+    "tabs": "/components/Tabs/Tabs"
   }
 }

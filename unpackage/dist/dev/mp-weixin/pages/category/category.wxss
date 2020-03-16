@@ -33,6 +33,10 @@
   -webkit-box-flex: 5;
   -webkit-flex: 5;
           flex: 5;
+  height: 100%;
+}
+.cates .cates_container .right_content .goods_group {
+  height: 100%;
 }
 .cates .cates_container .right_content .goods_group .goods_title {
   height: 80rpx;
