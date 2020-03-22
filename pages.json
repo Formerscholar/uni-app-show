@@ -27,7 +27,9 @@
 			}
 		}, {
 			"path": "pages/cart/cart",
-			"style": {}
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
 		}, {
 			"path": "pages/collect/collect",
 			"style": {}
